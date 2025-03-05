@@ -31,11 +31,11 @@ var app = builder.Build();
 
 
 //מצב מפתח 
-if (app.Environment.IsDevelopment())
-{
+// if (app.Environment.IsDevelopment())
+// {
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+// }
 
 //שימוש בקורס
 app.UseCors();
