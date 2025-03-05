@@ -50,7 +50,7 @@ var app = builder.Build();
 
 //שימוש בקורס
 app.UseCors();
-
+app.MapGet("/",  ()=>"Hello World!");
 //הפונקציונליות של האתר
 app.MapGet("/", async (ToDoDbContext db) =>
 {
