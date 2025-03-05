@@ -1,9 +1,20 @@
 using Microsoft.EntityFrameworkCore;
 using TodoApi;
 using Microsoft.AspNetCore.Mvc;
-
-
 var builder = WebApplication.CreateBuilder(args);
+
+// הוספת קונפיגורציה
+builder.Configuration.AddJsonFile("appsettings.json");
+
+// גישה למחרוזת הקישור
+string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+// הוספת DbContext לשירותים
+builder.Services.AddDbContext<ToDoDbContext>(options =>
+    options.UseMySql(connectionString, Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.40-mysql")));
+
+
+
 //הזרקת תלויות
 builder.Services.AddSingleton<Item>();
 
