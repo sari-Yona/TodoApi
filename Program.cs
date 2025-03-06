@@ -29,13 +29,11 @@ builder.Services.AddCors(options =>
     options.AddDefaultPolicy(
         policy =>
         {
-            policy.WithOrigins("http://localhost:3000") 
+            policy.AllowAnyOrigin()  // מאפשר פניות מכל אתר
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });
 });
-
-
 
 
 var app = builder.Build();
