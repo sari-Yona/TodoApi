@@ -19,5 +19,4 @@ RUN dotnet publish "TodoApi.csproj" -c Release -o /app/publish /p:UseAppHost=fal
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-COPY appsettings.json .
 ENTRYPOINT ["dotnet", "TodoApi.dll"]
