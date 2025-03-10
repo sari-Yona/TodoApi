@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
 namespace TodoApi;
-
 public partial class ToDoDbContext : DbContext
 {
     public ToDoDbContext(DbContextOptions<ToDoDbContext> options)

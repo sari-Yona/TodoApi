@@ -1,13 +1,20 @@
 using Microsoft.EntityFrameworkCore;
 using TodoApi;
 using Microsoft.AspNetCore.Mvc;
+using DotNetEnv;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// הוספת קונפיגורציה
-builder.Configuration.AddJsonFile("appsettings.json");
+// // הוספת קונפיגורציה
+// builder.Configuration.AddJsonFile("appsettings.json");
+Env.Load(); // טוען את משתני הסביבה מקובץ .env
 
-// גישה למחרוזת הקישור
-string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+// // גישה למחרוזת הקישור
+// string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+var connectionString = Environment.GetEnvironmentVariable("CONNECTION_STRING");
+
+
+
 
 // הוספת DbContext לשירותים
 builder.Services.AddDbContext<ToDoDbContext>(options =>

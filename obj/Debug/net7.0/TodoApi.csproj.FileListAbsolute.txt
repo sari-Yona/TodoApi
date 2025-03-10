@@ -5,6 +5,7 @@ C:\Users\This User\Desktop\הנדסאים\PRAKTIKOD\No.3\TodoApi\bin\Debug\net7.
 C:\Users\This User\Desktop\הנדסאים\PRAKTIKOD\No.3\TodoApi\bin\Debug\net7.0\TodoApi.runtimeconfig.json
 C:\Users\This User\Desktop\הנדסאים\PRAKTIKOD\No.3\TodoApi\bin\Debug\net7.0\TodoApi.dll
 C:\Users\This User\Desktop\הנדסאים\PRAKTIKOD\No.3\TodoApi\bin\Debug\net7.0\TodoApi.pdb
+C:\Users\This User\Desktop\הנדסאים\PRAKTIKOD\No.3\TodoApi\bin\Debug\net7.0\DotNetEnv.dll
 C:\Users\This User\Desktop\הנדסאים\PRAKTIKOD\No.3\TodoApi\bin\Debug\net7.0\Humanizer.dll
 C:\Users\This User\Desktop\הנדסאים\PRAKTIKOD\No.3\TodoApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\This User\Desktop\הנדסאים\PRAKTIKOD\No.3\TodoApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
@@ -22,6 +23,7 @@ C:\Users\This User\Desktop\הנדסאים\PRAKTIKOD\No.3\TodoApi\bin\Debug\net7.
 C:\Users\This User\Desktop\הנדסאים\PRAKTIKOD\No.3\TodoApi\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\This User\Desktop\הנדסאים\PRAKTIKOD\No.3\TodoApi\bin\Debug\net7.0\MySqlConnector.dll
 C:\Users\This User\Desktop\הנדסאים\PRAKTIKOD\No.3\TodoApi\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\This User\Desktop\הנדסאים\PRAKTIKOD\No.3\TodoApi\bin\Debug\net7.0\Sprache.dll
 C:\Users\This User\Desktop\הנדסאים\PRAKTIKOD\No.3\TodoApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\This User\Desktop\הנדסאים\PRAKTIKOD\No.3\TodoApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\This User\Desktop\הנדסאים\PRAKTIKOD\No.3\TodoApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
